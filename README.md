@@ -3,10 +3,17 @@ A "Bitcoin converter" is an app that allows users to convert the value of Bitcoi
 https://github.com/Emir-Rassulov/Bitcoin-Converter/assets/141578993/7fed30ea-db64-44b2-9c24-8328141a1afb
 
 How it was made:
-It uses the native URLSession framework for the api request. It also decodes using the decodable protocol and coding keys.
+- It uses the native URLSession framework for the API request. It also decodes using the decodable protocol and coding keys.
+- Animation has been added using FLAnimatedImage package 
+- Progress View
+- Picker
+
 
 Architectural pattern:
  - MVVM
 
 Networking:
  - URLSession
+
+API Website:
+- https://rest.coinapi.io/v1/exchangerate/BTC
